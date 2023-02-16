@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>가위바위보 게임</title>
+  <script src="https://kit.fontawesome.com/5b11df227d.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen&family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="default.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="board">
+      <button class="start"><img src="img/pixel2.png" alt=""></button>
+      <div class="topcontent">
+        <div class="score">you <span id="user">0</span></div>
+        <div class="score">draw <span id="draw">0</span></div>
+        <div class="score">pc <span id="computer">0</span></div>
+      </div>
+
+
+
+      <div class="bottomcontent">
+        <div class="setTime"><i class="fa-solid fa-clock"></i><span class="timer"> 30</span></div>
+
+        <div class="imgbox">
+          <img class="randomImg">
+        </div>
+      </div>
+
+      <div class="btns">
+        <span>YOU : </span>
+        <button class="btn" id="rock">✊</button>
+        <button class="btn" id="paper">🖐</button>
+        <button class="btn" id="scissors">✌</button>
+      </div>
+      <div class="resultText">💗 Who the Best? 💗</div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,302 @@
+@media screen and (max-width: 799px) {
+  body {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    background: linear-gradient(140deg, rgba(177, 221, 154, 1) 0%, rgba(115, 157, 207, 1) 100%);
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 700px;
+    height: 100%;
+  }
+
+  .topcontent {
+    font-family: 'Silkscreen', cursive;
+    text-transform: uppercase;
+    padding: 30px 0;
+    width: 100%;
+    display: flex;
+    justify-content:
+      space-around;
+  }
+
+  .start {
+    font-family: 'Silkscreen', cursive;
+    font-weight: bold;
+    font-size: 1.8rem;
+    height: auto;
+    color: rgb(42, 113, 118);
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    animation: zoom 1s ease-in-out infinite;
+  }
+
+  @keyframes zoom {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.1);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+  .start img{
+    width: 130px;
+  }
+
+  .bottomcontent {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .setTime {
+    position: relative;
+    left: 0;
+    float: left;
+    color: rgb(42, 113, 118);
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+
+  .score {
+    letter-spacing: -3px;
+    color: white;
+    font-size: 20px;
+  }
+
+  #user,
+  #computer,
+  #draw {
+    color: rgb(42, 113, 118);
+  }
+
+  .imgbox {
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 200px;
+  }
+
+  .randomImg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 0;
+  }
+
+  img {
+    padding: 20px;
+    object-fit: contain;
+  }
+
+
+  .btns {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .btn {
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background-color: rgb(42, 113, 118);
+    border: none;
+    font-size: 20px;
+    padding: 8px;
+  }
+
+
+  .resultText {
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: 'Silkscreen', cursive;
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    background: linear-gradient(140deg, rgba(177, 221, 154, 1) 0%, rgba(115, 157, 207, 1) 100%);
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 650px;
+  }
+
+  .topcontent {
+    font-family: 'Silkscreen', cursive;
+    text-transform: uppercase;
+    margin: 40px 0;
+    width: 100%;
+    display: flex;
+    justify-content:
+      space-around;
+  }
+
+  .start {
+    font-family: 'Silkscreen', cursive;
+    width: 100%;
+    font-weight: bold;
+    font-size: 2rem;
+    height: auto;
+    color: rgb(42, 113, 118);
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    animation: zoom 1s ease-in-out infinite;
+  }
+
+  @keyframes zoom {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.1);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .start img{
+    width: 100px;
+    height: 50px;
+  }
+
+
+  .bottomcontent {
+    width: 100%;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .setTime {
+    position: relative;
+    left: 0;
+    float: left;
+    color: rgb(42, 113, 118);
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+
+  .score {
+    letter-spacing: -3px;
+    color: white;
+    font-size: 25px;
+  }
+
+  #user,
+  #computer,
+  #draw {
+    color: rgb(42, 113, 118);
+  }
+
+  .imgbox {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 250px;
+  }
+
+  .randomImg,
+  img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+  }
+
+  img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+  }
+
+  .btns {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .btn {
+    cursor: pointer;
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    background-color: rgb(42, 113, 118);
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+  }
+
+
+  .resultText {
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: 'Silkscreen', cursive;
+    font-size: 1.3rem;
+  }
+}
