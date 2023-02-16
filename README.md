@@ -1,6 +1,6 @@
 # rockpaperscissors_game
 가위바위보게임입니다. ✊🖐✌<br>
-<a href="https://kim-bab.github.io/rockpaperscissors_game/index.html">링크 🚀</
+<a href="https://kim-bab.github.io/rockpaperscissors_game/index.html">링크 🚀</a>
 
 
 ![img](https://user-images.githubusercontent.com/79827829/219270595-77adbb82-a119-4ccd-959a-c0913e1383c8.JPG)
